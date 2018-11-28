@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    background-color: #b1041d;
+}
+
+article {
+    margin: auto;
+    background-color: #fff;
+    width: 600px;
+    padding: 30px;
+    box-shadow: 2px 2px 50px 0px rgba(78, 1, 1, 0.75);
+}
+
+h1 {
+    font-family: 'Freckle Face', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.article-date {
+    float: left;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+.quote {
+    font-family: 'Nanum Pen Script', cursive;
+    color:  #b1041d;
+    font-size: 30px;
+    display: inline-block;
+    width: 180px;
+    padding: 10px;
+    position: relative;
+}
+
+.quote-right {
+    float: right;
+    border-left: 8px double black;
+    margin: 0px 0px 0px 20px;
+    text-align: right;
+}
+
+.quote-right::before {
+    content: '“';
+    font-size: 250px;
+    font-family: 'Nanum Pen Script', cursive;
+    opacity: 0.2;
+    z-index: 2;
+    position: absolute;
+    margin: -50px 0px 0px -80px;
+}
+
+.quote-right::after {
+    content: '”';
+    font-size: 250px;
+    font-family: 'Nanum Pen Script', cursive;
+    opacity: 0.2;
+    z-index: 2;
+    position: absolute;
+    margin: -50px -10px 0px -60px;
+}
+
+.quote-left {
+    float: left;
+    border-right: 8px double black;
+    margin: 0px 20px 0px 0px;
+    text-align: left;
+}
+
+.quote-left::before {
+    content: '“';
+    font-size: 250px;
+    font-family: 'Nanum Pen Script', cursive;
+    opacity: 0.2;
+    z-index: 2;
+    position: absolute;
+    margin: -50px 0px 0px -20px;
+}
+
+.quote-left::after {
+    content: '”';
+    font-size: 250px;
+    font-family: 'Nanum Pen Script', cursive;
+    opacity: 0.2;
+    z-index: 2;
+    position: absolute;
+    margin: -70px -10px 0px 0px;
+}
+
+#kitty {
+    border: 4px double #b1041d;
+    width: 80%;
+    height: 80%;
+}
+
+.image-left {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+.image-caption {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    color: white;
+    background-color: #b1041d;
+    text-align: center;
+    margin: -8px 60px 0px 0px;
+}
+
